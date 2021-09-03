@@ -1,0 +1,5 @@
+﻿--dir D:\Projects\working-files-stream\psdata\in TEXT
+--file D:\Projects\working-files-stream\psdata\in\data1.txt
+
+** see content of .data  file 
+Format-Hex -Path data4.data

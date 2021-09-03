@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "workfiles.console": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Projects\\working-files-stream\\psdata\\in"
+    }
+  }
+}
