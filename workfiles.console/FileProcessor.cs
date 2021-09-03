@@ -70,6 +70,10 @@ namespace workfiles.console
                     var binaryProcessor = new BinaryFileProcessor(inProgessFilePath, completedFilePath);
                     binaryProcessor.Process();
                     break;
+                case ".csv":
+                    var csvProcessor = new CsvFileProcessor(inProgessFilePath, completedFilePath);
+                    csvProcessor.Process();
+                    break;
                 default:
                     WriteLine($"{extension} is an unsupported file type");
                     break;
